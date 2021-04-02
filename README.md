@@ -1,10 +1,11 @@
-Vašim domácím úkolem je vytvořit implementaci zásobníku čísel ve Vašem repozitáři na githubu a až budete mít hotovo, tak mi poslat adresu toho repozitáře.
+Vašim domácím úkolem je vytvořit implementaci binárního vyváženého stromu.
 
-Jako každý správný zásobník by i ten Váš měl mít následující 4 metody:
+Tento strom bude podporovat tři operace:
 
-- <b>push</b> - metoda push vloží zadané číslo na vrchol zásobníku
-- <b>pop</b> - metoda pop odebere číslo z vrcholu zásobníku a vrátí jej
-- <b>top</b> - metoda top pouze vrátí číslo, co je na vrcholu zásobníku
-- <b>is empty</b> - metoda is empty vrátí true/false podle toho, jestli je zásobník prázdný
+ - přidání prvku (pokud se nám prvek podaří přidat, vrátíme true, pokud ten prvek už ve stromu je, tak jej znovu nepřidáváme a vrátíme false)
 
-Chtěl bych, abyste při implementaci toho zásobníku použili vlastní implementaci zřetězeného seznamu a abyste ke každé z metod v komentáři uvedli její časovou složitost.
+ - odstranění prvku (pokud tam je, odstraníme ho a vrátíme true, pokud ne, vrátíme false)
+
+ - hledání prvku ve stromu (pokud jej najdeme, vrátíme true, jinak false)
+
+Potom, co budete mít hotovo, napište, jakou časovou složitost mají jednotlivé operace v závislosti na počtu prvků ve stromu.
